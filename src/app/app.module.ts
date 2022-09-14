@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AlumnosComponent } from './componentes/alumnos/alumnos.component';
+import { HistorialesComponent } from './componentes/historiales/historiales.component';
+import { ListaAlumnoComponent } from './componentes/lista-alumno/lista-alumno.component';
+import { FormularioSeccionComponent } from './componentes/formulario-seccion/formulario-seccion.component';
+import { FormularioAlumnosComponent } from './componentes/formulario-alumnos/formulario-alumnos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AlumnosComponent,
+    HistorialesComponent,
+    ListaAlumnoComponent,
+    FormularioSeccionComponent,
+    FormularioAlumnosComponent
   ],
   imports: [
     BrowserModule,

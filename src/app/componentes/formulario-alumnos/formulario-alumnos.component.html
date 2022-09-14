@@ -1,0 +1,41 @@
+<section>
+  <fieldset>
+    <label for="">Rut </label>
+    <input
+      type="text"
+      name="rut"
+      [value]="alumno.rut"
+      (input)="cambiarRut($event)"
+    />
+  </fieldset>
+  <fieldset>
+    <label for=""> nombre </label>
+    <input
+      type="text"
+      name="nombre"
+      [value]="alumno.nombreAlumno"
+      (input)="cambiarNombre($event)"
+    />
+  </fieldset>
+
+  <fieldset>
+    <label for="">Apellido </label>
+    <input
+      type="text"
+      name="apellido"
+      [value]="alumno.apellidoAlumno"
+      (input)="cambiarApellido($event)"
+    />
+  </fieldset>
+
+  <fieldset>
+    <label for="">Edad </label>
+    <input
+      type="number"
+      name="edad"
+      [value]="alumno.edadAlumno"
+      (input)="cambiarEdad($event)"
+    />
+  </fieldset>
+  <button (click)="guardarAlumno()" > Guardar  </button>
+</section>
