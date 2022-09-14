@@ -1,5 +1,6 @@
 <h1>Lista Alumnos</h1>
-<app-formulario-seccion ></app-formulario-seccion>
+<app-formulario-seccion (rescate)="nuevaSec($event)"></app-formulario-seccion>
 <app-formulario-alumnos (rescate)="nuevoAlumno($event)"></app-formulario-alumnos>
 <app-lista-alumno [Alumnos]="listaAlumno" ></app-lista-alumno>
+<app-listar-seccion [Secciones]="listarSeccion" ></app-listar-seccion>
 

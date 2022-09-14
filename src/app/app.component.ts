@@ -12,10 +12,14 @@ export class AppComponent {
   public listaAlumno: Array<Alumno> = [
 
   ]
+  public listarSeccion: Array<Seccion> =[
 
+  ]
 
 public nuevoAlumno(nuevo: Alumno): void {
   this.listaAlumno.push(nuevo);
 }
-
+public nuevaSec(nuevo: Seccion): void {
+  this.listarSeccion.push(nuevo);
+}
 }

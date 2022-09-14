@@ -8,6 +8,8 @@ import { HistorialesComponent } from './componentes/historiales/historiales.comp
 import { ListaAlumnoComponent } from './componentes/lista-alumno/lista-alumno.component';
 import { FormularioSeccionComponent } from './componentes/formulario-seccion/formulario-seccion.component';
 import { FormularioAlumnosComponent } from './componentes/formulario-alumnos/formulario-alumnos.component';
+import { SeccionesComponent } from './componentes/secciones/secciones.component';
+import { ListarSeccionComponent } from './componentes/listar-seccion/listar-seccion.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FormularioAlumnosComponent } from './componentes/formulario-alumnos/for
     HistorialesComponent,
     ListaAlumnoComponent,
     FormularioSeccionComponent,
-    FormularioAlumnosComponent
+    FormularioAlumnosComponent,
+    SeccionesComponent,
+    ListarSeccionComponent
   ],
   imports: [
     BrowserModule,
